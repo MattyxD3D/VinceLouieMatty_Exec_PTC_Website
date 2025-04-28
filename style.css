@@ -456,16 +456,17 @@ footer nav {
 
 .hero-video-wrapper {
   width: 100%;
-  max-width: 600px; /* Or your preferred max width */
-  margin: 0 auto; /* Center the wrapper itself */
+  max-width: 1000px; /* Increased from 600px to 1000px */
+  margin: 0 auto;
   display: flex;
-  justify-content: center; /* Center the video inside the wrapper */
+  justify-content: center;
   align-items: center;
   aspect-ratio: 16/9;
   background: #000;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  min-height: 400px; /* Optional: ensures it's tall even if video is small */
 }
 
 .hero-video {
