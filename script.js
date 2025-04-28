@@ -5,6 +5,7 @@ const navLinks = document.querySelector(".nav-links");
 hamburger.addEventListener("click", () => {
   navLinks.style.display = navLinks.style.display === "flex" ? "none" : "flex";
   hamburger.classList.toggle("active");
+  navLinks.classList.toggle("open");
 });
 
 // Smooth Scrolling for Navigation Links
