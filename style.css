@@ -492,6 +492,18 @@ footer nav {
   .intro-video {
     border-radius: 0;
   }
+  .hero-video-section {
+    padding: 4.5rem 0 1rem 0; /* Less padding on mobile */
+  }
+  .hero-video-wrapper {
+    max-width: 100vw;
+    border-radius: 0;
+    box-shadow: none;
+    aspect-ratio: 16/9;
+  }
+  .hero-video {
+    border-radius: 0;
+  }
 }
 
 .video-section-title {
